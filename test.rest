@@ -1,0 +1,28 @@
+POST http://localhost:3000
+Content-Type: application/json
+
+{
+    "username":"alan juju",
+    "email":"alan@gmail.com"
+}
+
+###
+GET http://localhost:3000/decoder
+Content-Type: application/json
+Authorization:Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbnQiOjE2MzU0Mjg4NzQsImV4cCI6MTYzNTQzMjQ3NCwidXNlcm5hbWUiOiJhbGFuIGp1anUifQ.26q9sn5yipjjnQJ8dMDgd1msRBftrVawdApum1YxmVk
+
+{
+    
+
+}
+
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+Authorization:Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbnQiOjE2MzU0Mjg4NzQsImV4cCI6MTYzNTQzMjQ3NCwidXNlcm5hbWUiOiJhbGFuIGp1anUifQ.26q9sn5yipjjnQJ8dMDgd1msRBftrVawdApum1YxmVk
+
+{
+    "user":"alan"
+    
+
+}
